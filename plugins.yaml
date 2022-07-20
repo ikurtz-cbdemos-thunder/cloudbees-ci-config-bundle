@@ -1,4 +1,6 @@
 plugins:
+
+# CAP Plugins
 - id: analysis-model-api
 - id: antisamy-markup-formatter
 - id: bootstrap4-api
@@ -33,9 +35,12 @@ plugins:
 - id: pipeline-model-extensions
 - id: pipeline-stage-view
 - id: plugin-util-api
-- id: pipeline-utility-steps
 - id: popper-api
 - id: warnings-ng
 - id: wikitext
 - id: workflow-aggregator
 - id: workflow-cps-checkpoint
+
+# non-CAP Plugins
+- id: pipeline-utility-steps
+- id: octopusdeploy
