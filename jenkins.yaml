@@ -6,7 +6,7 @@ unclassified:
     - "build"
     - "web"
     enabled: true
-    gracePeriod: 36000
+    gracePeriod: 3600
   octopusGlobalConfiguration:
     octopusDeployServers:
     - apiKey: "{AQAAABAAAAAw3U+Dr1rCsyGh5vm6aLHCU08/J8XI4xCsyKmveII+G5RiN6jwgSx2Ia4q4bk8zcg3XKawMlp3BrutszKTBM+FiA==}"
