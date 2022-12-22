@@ -47,4 +47,3 @@ plugins:
 
 # non-CAP Plugins
 - id: pipeline-utility-steps
-- id: octopusdeploy
