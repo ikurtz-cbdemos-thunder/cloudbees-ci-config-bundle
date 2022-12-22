@@ -7,12 +7,6 @@ unclassified:
     - "web"
     enabled: true
     gracePeriod: 3600
-  octopusGlobalConfiguration:
-    octopusDeployServers:
-    - apiKey: "{AQAAABAAAAAw3U+Dr1rCsyGh5vm6aLHCU08/J8XI4xCsyKmveII+G5RiN6jwgSx2Ia4q4bk8zcg3XKawMlp3BrutszKTBM+FiA==}"
-      ignoreSslErrors: false
-      serverId: "ikurtz-octopus-cloud-app"
-      url: "https://ikurtz-cbdemos.octopus.app/"
   gitHubConfiguration:
     apiRateLimitChecker: ThrottleForNormalize
   globallibraries:
@@ -26,9 +20,7 @@ unclassified:
               credentialsId: "github-sa"
               repoOwner: "ikurtz-cbdemos-thunder"
               repository: "pipeline-library"
-    octopusGlobalConfiguration:
-    
-
+              
 groovy:
   - url: https://raw.githubusercontent.com/ikurtz-cbdemos-thunder/cloudbees-ci-config-bundle/main/groovy/create-pipeline-template-catalog.groovy
   - url: https://raw.githubusercontent.com/ikurtz-cbdemos-thunder/cloudbees-ci-config-bundle/main/groovy/create-unhibernate-job.groovy
